@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gönen AVM Hoşgeldiniz"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/btnProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ürünleri Gör" />
+
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepeti Gör" />
+
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hakkımızda" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayarlar" />
+</LinearLayout>
+
+
