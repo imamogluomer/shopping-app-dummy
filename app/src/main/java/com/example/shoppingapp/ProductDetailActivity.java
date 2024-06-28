@@ -31,7 +31,7 @@ public class ProductDetailActivity extends AppCompatActivity {
         // Assume we get product details from intent
         Intent intent = getIntent();
         String urunAdi = intent.getStringExtra("urunAdi");
-        int urunFiyat = intent.getIntExtra("urunFiyat", 0);
+        int urunFiyat = intent.getIntExtra("urunFiyat", 2489);
 
         // Set product details to views
         tvUrunAdi.setText(urunAdi);
